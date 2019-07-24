@@ -12,6 +12,9 @@ namespace StudentExample.Controllers
     {
         public IActionResult Index()
         {
+            DateTime dt = DateTime.Now;
+
+            ViewBag.M1 = "This is the time" + dt.ToShortTimeString();
             return View();
         }
 
