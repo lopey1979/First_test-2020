@@ -12,22 +12,24 @@ namespace StudentExample.Controllers
     {
         public IActionResult Index()
         {
-            DateTime dt = DateTime.Now;
+            //DateTime dt = DateTime.Now;
 
-            ViewBag.M1 = "This is the time" + dt.ToShortTimeString();
+            //ViewBag.M1 = "This is the time" + dt.ToShortTimeString();
+
+            ViewBag.M1 = "Hello from Pete at 12:00";
             return View();
         }
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sarah Ferrand's design page";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Sarah Ferrand's design page";
 
             return View();
         }
