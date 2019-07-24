@@ -16,7 +16,7 @@ namespace StudentExample.Controllers
 
             //ViewBag.M1 = "This is the time" + dt.ToShortTimeString();
 
-            ViewBag.M1 = "Hello from Pete at 12:00";
+            ViewBag.M1 = "Hello from Pete at 12:20";
             return View();
         }
 
