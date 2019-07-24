@@ -31,6 +31,8 @@ namespace StudentExample.Controllers
         {
             ViewData["Message"] = "Sarah Ferrand's design page";
 
+            ViewBag.M = "This is from the server, not the view";
+
             return View();
         }
 
